@@ -1,0 +1,28 @@
+{
+  "name": "senko-san",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlimeBluKing/Senko-san.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlimeBluKing/Senko-san/issues"
+  },
+  "homepage": "https://github.com/SlimeBluKing/Senko-san#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-avatar": "^1.0.0",
+    "distube": "^2.8.11",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.8",
+    "opusscript": "^0.0.8",
+    "reddit-fetch": "^1.5.1"
+  }
+}
