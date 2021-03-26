@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 require('dotenv').config();
 const { executionAsyncResource } = require('async_hooks');
 const fs = require('fs')
+const mongo = require('./mongo');
 const { lookup, CONNREFUSED } = require('dns');
 const { waitForDebugger } = require('inspector');
 const redditFetch = require('reddit-fetch');
@@ -27,9 +28,16 @@ const DisTube = require('distube');
 const distube = new DisTube(client, { searchSongs: true, emitNewSongOnly: true, highWaterMark: 1 <<25})
 const filters = ["3d","bassboost","echo","karaoke","nightcore","vaporwave","flanger"];
  
-client.on("ready", () => {
+client.on("ready", async () => {
     console.log("ヾ(•ω•`)oSono qua senpai!ヾ(•ω•`)o")
     client.user.setActivity("con il mio senpai | !?help")
+    await mongo().then(mongoose => {
+        try{
+            console.log('Mi sono connessa a MongoDB senpai q(≧▽≦q)')
+        }finally {
+            mongoose.connection.close()
+        }
+    })
 })
 
 //commands handler
