@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+require('dotenv').config();
 const { mongoPath } = process.env.mdb
 
 module.exports = async () => {
