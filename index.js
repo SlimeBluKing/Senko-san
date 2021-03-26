@@ -2,12 +2,10 @@ const Discord = require('discord.js');
 require('dotenv').config();
 const { executionAsyncResource } = require('async_hooks');
 const fs = require('fs')
-const mongoose = require('mongoose');
 const { lookup, CONNREFUSED } = require('dns');
 const { waitForDebugger } = require('inspector');
 const redditFetch = require('reddit-fetch');
 const client = new Discord.Client();
-mongoose.connect(process.env.db, { useNewUrlParser: true, useUnifiedTopology: true })
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir("./commands/", (e, f) => {
