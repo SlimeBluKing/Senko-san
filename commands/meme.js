@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const language = require('../language')
 const redditFetch = require('reddit-fetch');
 module.exports.run = (client, message, args) => {
     console.log('Comando meme eseguito')
@@ -13,7 +14,7 @@ module.exports.run = (client, message, args) => {
         
     }).then(post => {
         const memeembed = new Discord.MessageEmbed()
-            .setTitle('Ecco un meme senpai')
+            .setTitle(`${language(guild, 'HERE_MEME')}`)
             .setColor('RANDOM')
             .setImage(post.url)
             .setFooter('Se non carica vuol dire che è un video... e gli embed non supportano video')
