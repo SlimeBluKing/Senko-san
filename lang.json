@@ -1,9 +1,0 @@
-{
-    "languages": ["italiano", "english"],
-    "tranlations": {
-        "HERE_MEME":{
-            "italiano": "Ecco un meme senpai",
-            "english": "Here a meme senpai"
-        }
-    }
-}
