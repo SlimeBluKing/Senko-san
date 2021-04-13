@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const redditFetch = require('reddit-fetch');
 module.exports.run = (client, message, args) => {
-    console.log('Comando meme eseguito')
     redditFetch({
         
         subreddit: 'Animememes',
