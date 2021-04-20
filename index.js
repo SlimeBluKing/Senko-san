@@ -48,6 +48,8 @@ client.on("message", async(message) => {
         return
     }
 
+    if (!message.guild.me.hasPermission("ADMINISTRATOR")) return
+
     const args = message.content.slice(prefix.length).trim().split(/ +/g)
     const command = args.shift().toLowerCase();
 
@@ -67,6 +69,7 @@ client.on("message", message => {
     if(message.author.bot) return;
     if(!message.guild) return;
     if(!message.content.startsWith(prefix)) return
+    if (!message.guild.me.hasPermission("ADMINISTRATOR")) return
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
