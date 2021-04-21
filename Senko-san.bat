@@ -1,6 +1,6 @@
 @echo off
-echo Starting..
+echo Avviando..
 :main
 node index.js
-echo Restarting Bot..
+echo Riavvio...
 goto main
