@@ -17,13 +17,22 @@
   },
   "homepage": "https://github.com/SlimeBluKing/Senko-san#readme",
   "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "discord-ytdl-core": "^5.0.2",
     "discord.js": "^12.5.1",
     "discord.js-avatar": "^1.0.0",
-    "distube": "^2.8.11",
     "dotenv": "^8.2.0",
+    "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.2.8",
+    "lyrics-finder": "^21.7.0",
     "mongoose": "^5.12.2",
+    "node-opus": "^0.3.3",
     "opusscript": "^0.0.8",
-    "reddit-fetch": "^1.5.1"
+    "reddit-fetch": "^1.5.1",
+    "soundcloud-downloader": "^1.0.0",
+    "youtube-sr": "^4.0.6",
+    "yt-search": "^2.8.0",
+    "ytdl-core": "^4.5.0",
+    "ytpl": "^2.2.0"
   }
 }

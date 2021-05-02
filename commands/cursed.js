@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
+const language = require('../language')
 const redditFetch = require('reddit-fetch');
 module.exports.run = (client, message, args) => {
-    console.log('Comando cursed eseguito')
+    const { guild } = message
     redditFetch({
         
         subreddit: 'CursedAnime',
@@ -13,10 +14,10 @@ module.exports.run = (client, message, args) => {
         
     }).then(post => {
         const cursedembed = new Discord.MessageEmbed()
-            .setTitle('Immagine strana in arrivo senpai')
+            .setTitle(language(guild, 'CURSED_TITLE'))
             .setColor('RANDOM')
             .setImage(post.url)
-            .setFooter('Se non carica vuol dire che è un video... e gli embed non supportano video')
+            .setFooter(language(guild, 'VIDEO_DISCLAMER_FOOTER'))
         message.channel.send(cursedembed);
     })
 }

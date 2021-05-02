@@ -1,0 +1,213 @@
+{
+    "languages": ["eng", "ita"],
+    "translations": {
+        "PROVA": {
+            "eng": "english", 
+            "ita": "italiano"
+        },
+        "BUGS_TITLE": {
+            "eng": "**THE BUGS I HAVE**",
+            "ita": "**I BUG CHE HO**"
+        },
+        "BUGS": {
+            "eng": "=>I'm unstable, I tend to crash often if a command is misspelled UwU\n\n=>The cursed command many times can't find the images, but that's the subreddit's fault, my creator needs to find a better one\n\nIf you find other bugs contact @『SlimeBluKing』# 5268 immediately\nThanks (´▽`ʃ♡ƪ)",
+            "ita": "=>Sono instabile, tendo a crashare spesso se un comando è scritto in maniera sbagliata UwU\n\n=>Il comando cursed molte volte non trovo le immagini, ma questo è colpa del subreddit, il mio creatore deve trovarne uno migliore\n\nSe trovi altri bug contatta subito @『SlimeBluKingツ』#5268\nGrazie (´▽`ʃ♡ƪ)"
+        },
+        "REMOVED": {
+            "eng": "Removed:",
+            "ita": "Rimosso:"
+        },
+        "FROM_QUEUE": {
+            "eng": "from the queue senpai",
+            "ita": "dalla coda senpai"
+        },
+        "QUEUE_ONLY": {
+            "eng": "The queue is only",
+            "ita": "La coda è contiene solo"
+        },
+        "QUEUE_LONG": {
+            "eng": "songs long",
+            "ita": "brani"
+        },
+        "MEME_TITLE": {
+            "eng": "Here a meme senpai",
+            "ita": "Ecco un meme senpai"
+        },
+        "WAIFU_TITLE": {
+            "eng": "Here a waifu senpai",
+            "ita": "Eccoti una waifu senpai"
+        },
+        "CURSED_TITLE": {
+            "eng": "Here a cursed images senpai",
+            "ita": "Immagine strana in arrivo senpai"
+        },
+        "VIDEO_DISCLAMER_FOOTER": {
+            "eng": "If it doesn't load it means it's a video ... and the embeds don't support video",
+            "ita": "Se non carica vuol dire che è un video... e gli embed non supportano video"
+        },
+        "WEEBMETER_INDIVIDUAL": {
+            "eng": "U are weeb at ",
+            "ita": "Sei weeb al "
+        },
+        "WEEBMETER_MENTION": {
+            "eng": " is weeb at ",
+            "ita": " è weeb al "
+        },
+        "POOL_NOT_CHANNEL": {
+            "eng": "Senpai, first mention a channel",
+            "ita": "Senpai, devi menzionare il canale"
+        },
+        "POOL_TITLE": {
+            "eng": "**POOL**",
+            "ita": "**SONDAGGIO**"
+        },
+        "ERROR_MUSIC": {
+            "eng": "The player has stopped and the queue has been cleared",
+            "ita": "La riproduzione è stata fermata e la coda cancellata"
+        },
+        "NO_MUSIC": {
+            "eng": "There is nothing playing here senpai",
+            "ita": "Qui non c'è niente in riproduzione senpai"
+        },
+        "NO_LYRICS": {
+            "eng": "Senpai, no lyrics found for",
+            "ita": "Senpai, non ho trovato nulla per"
+        },
+        "NO_VOICE": {
+            "eng": "Senpai, first join in a voice chat!",
+            "ita": "Senpai, prima devi entrare in una vocale!"
+        },
+        "NO_QUEUE": {
+            "eng": "Senpai, there is no queue.",
+            "ita": "Senpai, non c'è una coda."
+        },
+        "NO_IN_VOICE": {
+            "eng": "Senpai, I'm not in a voice channel!",
+            "ita": "Senpai, non sono in vocale!"
+        },
+        "NO_PLAYLIST": {
+            "eng": "Senpai, no playlist found",
+            "ita": "Senpai, non ho trovato la playlist"
+        },
+        "PLAYLIST_ADD_QUEUE": {
+            "eng": "added to queue senpai",
+            "ita": "aggiunta alla coda senpai"
+        },
+        "PLAYLIST_ADD_QUEUE2": {
+            "eng": "Playlist added to queue senpai",
+            "ita": "Playlist aggiunta alla coda senpai"
+        },
+        "HAS_BEEN_ADDED": {
+            "eng": "has been added",
+            "ita": "sono stati aggiunti"
+        },
+        "VIDEO_TO_QUEUE": {
+            "eng": "video to the queue",
+            "ita": "video alla coda"
+        },
+        "NOT_NEXT": {
+            "eng": "No songs to play next",
+            "ita": "Niente da riprodurre dopo"
+        },
+        "LEAVE_TRY": {
+            "eng": "Trying To Leave The Voice Channel...",
+            "ita": "Sto cercando di uscire dalla vocale..."
+        },
+        "LEAVE": {
+            "eng": "🎶 Left the voice channel.",
+            "ita": "🎶 Uscita dalla chat vocale."
+        },
+        "PLAYING": {
+            "eng": "Now playing",
+            "ita": "In riproduzione"
+        },
+        "ERROR_PLAY": {
+            "eng": "I'm sorry but you need to be in a voice channel!",
+            "ita": "Mi dispiace ma non riesco ad entrare in vocale!"
+        },
+        "NOTPERM": {
+            "eng": "You don't have the permissions",
+            "ita": "Non hai il permesso"
+        },
+        "ERROR_NOTPERM_SPEAK": {
+            "eng": "I cannot speak in this voice channel, make sure I have the proper permissions!",
+            "ita": "Non riesco a parlare, guarda se hai settato bene i permessi!"
+        },
+        "ERROR_NOTPERM_CONNECT": {
+            "eng": "I cannot speak in this voice channel, make sure I have the proper permissions!",
+            "ita": "Non riesco ad entrare, guarda se hai settato bene i permessi!"
+        },
+        "ERROR_NOTPERM_QUEUE": {
+            "eng": "Missing permission to manage messages or add reactions",
+            "ita": "Mi mancano i permessi di reagire ai messaggi e controllare i messaggi"
+        },
+        "ERROR_NOTENTRY": {
+            "eng": "Senpai, I could not join the voice channel",
+            "ita": "Senpai, non riesco ad entrare"
+        },
+        "BLANK_PLAY": {
+            "eng": "You didn't poivide want i want to play",
+            "ita": "Non hai cercato nulla"
+        },
+        "ERROR_YT": {
+            "eng": "Looks like i was unable to find the song on YouTube",
+            "ita": "Non sono riuscita a cercare la tua richiesta su YouTube"
+        },
+        "ERROR_PLAYLIST_YT": {
+            "eng": "Looks like i was unable to find the playlist on YouTube",
+            "ita": "Non sono riuscita a cercare la playlist su YouTube"
+        },
+        "ERROR_SC": {
+            "eng": "Looks like i was unable to find the song on SoundCloud",
+            "ita": "Non sono riuscita a cercare la tua richiesta su SoundCloud"
+        },
+        "QUEUE_TITLE": {
+            "eng": "Queue",
+            "ita": "Coda"
+        },
+        "ADD_QUEUE": {
+            "eng": "Song has been added to queue senpai",
+            "ita": "Brano aggiunta alla coda senpai"
+        },
+        "QUEUE_NAME": {
+            "eng": "Name",
+            "ita": "Nome"
+        },
+        "QUEUE_DURATION": {
+            "eng": "Duration",
+            "ita": "Durata"
+        },
+        "QUEUE_REQUEST": {
+            "eng": "Requested by",
+            "ita": "Richiesto da"
+        },
+        "QUEUE_VIEWS": {
+            "eng": "Views",
+            "ita": "Visualizzazioni"
+        },
+        "CURRENT_VOLUME": {
+            "eng": "The current volume is:",
+            "ita": "Ora il volume è al:"
+        },
+        "VOLUME_ERROR": {
+            "eng": "You can't set the volume more than 150 or lower than 0",
+            "ita": "Non puoi settare il volume oltre 150 o sotto lo 0"
+        },
+        "SET_VOLUME": {
+            "eng": "Senpai, I set the volume to:",
+            "ita": "Senpai, ho messo il volume a:"
+        },
+        "ONLY_NUM": {
+            "eng": "ONLY NUMBERS!",
+            "ita": "SOLO NUMERI!"
+        },
+        "HELP_TITLE": {
+            "eng": "**WHAT MY SENPAI TAUGHT ME**(for now)",
+            "ita": "**COSA MI HA INSEGNATO IL MIO SENPAI**(per ora)"
+        },
+        "HELP": {
+            "eng": "**MUSIC BOT**\nplay <title/url(only yt videos)>, playlist <title/url(only yt playlist)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying\n-------------------------\n**THINGS FOR WEEBS**\nwaifu, meme, cursed, howweeb\n-------------------------\n**THINGS**\nhelp, bugs, pool [channel] [ask]\n**SETTINGS**\nsetlanguage {ita/eng}",
+            "ita": "**BOT MUSICALE**\nplay <title/url(solo video di yt)>, playlist <title/url(solo playlist di yt)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying\n-------------------------\n**COSE PER WEEB**\nwaifu, meme, cursed, howweeb\n-------------------------\n**THINGS**\nhelp, bugs, pool [channel] [ask]\n**IMPOSTAZIONI**\nsetlanguage {ita/eng}"
+        }
+    }
+}

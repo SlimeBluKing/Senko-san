@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const redditFetch = require('reddit-fetch');
+const language = require('../language')
 module.exports.run = (client, message, args) => {
+    const { guild } = message
     redditFetch({
         
         subreddit: 'Animememes',
@@ -12,10 +14,10 @@ module.exports.run = (client, message, args) => {
         
     }).then(post => {
         const memeembed = new Discord.MessageEmbed()
-            .setTitle(`Ecco un meme senpai`)
+            .setTitle(`${language(guild, 'MEME_TITLE')}`)
             .setColor('RANDOM')
             .setImage(post.url)
-            .setFooter('Se non carica vuol dire che è un video... e gli embed non supportano video')
+            .setFooter(`${language(guild, 'VIDEO_DISCLAMER_FOOTER')}`)
         message.channel.send(memeembed);
     })
 }

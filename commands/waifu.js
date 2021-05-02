@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
+const language = require('../language')
 const redditFetch = require('reddit-fetch');
 module.exports.run = (client, message, args) => {
-    console.log('Comando waifu eseguito')
+    const { guild } = message
     redditFetch({
         
         subreddit: 'awwnime',
@@ -13,10 +14,9 @@ module.exports.run = (client, message, args) => {
         
     }).then(post => {
         const waifuembed = new Discord.MessageEmbed()
-            .setTitle('Eccoti una waifu senpai')
+            .setTitle(`${language(guild, 'WAIFU_TITLE')}`)
             .setColor('RANDOM')
             .setImage(post.url)
-            .setFooter('Se non carica vuol dire che è un video... e gli embed non supportano video')
         message.channel.send(waifuembed);
     })
 }

@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
+const language = require('../language')
 module.exports.run = (client, message) => {
-    console.log('Comando bugs eseguito')
+    const { guild } = message
     const bugembed = new Discord.MessageEmbed()
         .setColor('#08415D')
-        .setTitle('**I BUG CHE HO**')
-        .setDescription('=>Sono instabile, tendo a crashare spesso se un comando è scritto in maniera sbagliata UwU\nSe trovi altri bug contatta subito @『SlimeBluKingツ』#5268\nGrazie (´▽`ʃ♡ƪ)')
-        .attachFiles('./images/iloveu.gif')
+        .setTitle(language(guild, 'BUGS_TITLE'))
+        .setDescription(language(guild, 'BUGS'))
+        .attachFiles('./assets/iloveu.gif')
         .setImage('attachment://iloveu.gif')
         .setFooter(client.user.username, client.user.displayAvatarURL())
     message.channel.send(bugembed)
