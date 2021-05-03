@@ -62,8 +62,8 @@
             "ita": "**SONDAGGIO**"
         },
         "ERROR_MUSIC": {
-            "eng": "The player has stopped and the queue has been cleared",
-            "ita": "La riproduzione è stata fermata e la coda cancellata"
+            "eng": "Senpai, the player has stopped and the queue has been cleared",
+            "ita": "Senpai, la riproduzione è stata fermata e la coda cancellata"
         },
         "NO_MUSIC": {
             "eng": "There is nothing playing here senpai",
@@ -110,7 +110,7 @@
             "ita": "Niente da riprodurre dopo"
         },
         "LEAVE_TRY": {
-            "eng": "Trying To Leave The Voice Channel...",
+            "eng": "Trying to leave the voice channel...",
             "ita": "Sto cercando di uscire dalla vocale..."
         },
         "LEAVE": {
@@ -206,8 +206,8 @@
             "ita": "**COSA MI HA INSEGNATO IL MIO SENPAI**(per ora)"
         },
         "HELP": {
-            "eng": "**MUSIC BOT**\nplay <title/url(only yt videos)>, playlist <title/url(only yt playlist)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying\n-------------------------\n**THINGS FOR WEEBS**\nwaifu, meme, cursed, howweeb\n-------------------------\n**THINGS**\nhelp, bugs, pool [channel] [ask]\n**SETTINGS**\nsetlanguage {ita/eng}",
-            "ita": "**BOT MUSICALE**\nplay <title/url(solo video di yt)>, playlist <title/url(solo playlist di yt)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying\n-------------------------\n**COSE PER WEEB**\nwaifu, meme, cursed, howweeb\n-------------------------\n**THINGS**\nhelp, bugs, pool [channel] [ask]\n**IMPOSTAZIONI**\nsetlanguage {ita/eng}"
+            "eng": "**MUSIC BOT**\n```play <title/url(only yt videos)>, playlist <title/url(only yt playlist)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n-------------------------\n**THINGS FOR WEEBS**\n```waifu, meme, cursed, howweeb```\n-------------------------\n**THINGS**\n```help, bugs, pool [channel] [ask]```\n**SETTINGS**\n```setlanguage {ita/eng}```",
+            "ita": "**BOT MUSICALE**\n```play <title/url(solo video di yt)>, playlist <title/url(solo playlist di yt)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n-------------------------\n**COSE PER WEEB**\n```waifu, meme, cursed, howweeb```\n-------------------------\n**ALTRO**\n```help, bugs, pool [channel] [ask]```\n**IMPOSTAZIONI**\n```setlanguage {ita/eng}```"
         }
     }
 }
