@@ -206,8 +206,8 @@
             "ita": "**COSA MI HA INSEGNATO IL MIO SENPAI**(per ora)"
         },
         "HELP": {
-            "eng": "**MUSIC BOT**\n```play <title/url(only yt videos)>, playlist <title/url(only yt playlist)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n-------------------------\n**THINGS FOR WEEBS**\n```waifu, meme, cursed, howweeb```\n-------------------------\n**THINGS**\n```help, bugs, pool [channel] [ask]```\n**SETTINGS**\n```setlanguage {ita/eng}```",
-            "ita": "**BOT MUSICALE**\n```play <title/url(solo video di yt)>, playlist <title/url(solo playlist di yt)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n-------------------------\n**COSE PER WEEB**\n```waifu, meme, cursed, howweeb```\n-------------------------\n**ALTRO**\n```help, bugs, pool [channel] [ask]```\n**IMPOSTAZIONI**\n```setlanguage {ita/eng}```"
+            "eng": "**MUSIC BOT**\n```play <title/url(only yt videos)>, playlist <title/url(only yt playlist)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n\n**THINGS FOR WEEBS**\n```waifu, meme, cursed, howweeb```\n\n**THINGS**\n```help, bugs, pool [channel] [ask]```\n\n**SETTINGS**\n```setlanguage {ita/eng}```",
+            "ita": "**BOT MUSICALE**\n```play <title/url(solo video di yt)>, playlist <title/url(solo playlist di yt)>, stop, skip, queue, loop or repeat, lyrics, volume [n], remove [n], shuffle, leave, nowplaying```\n\n**COSE PER WEEB**\n```waifu, meme, cursed, howweeb```\n\n**ALTRO**\n```help, bugs, pool [channel] [ask]```\n\n**IMPOSTAZIONI**\n```setlanguage {ita/eng}```"
         }
     }
 }
