@@ -34,7 +34,7 @@ client.queue = new Map()
  
 client.on("ready", async () => {
     console.log("ヾ(•ω•`)oSono qua senpai!ヾ(•ω•`)o")
-    client.user.setActivity("con il mio senpai | ?!help")
+    client.user.setActivity("con il mio senpai | !?help")
     await mongo().then(mongoose => {
         try{
             console.log('Mi sono connessa a MongoDB senpai q(≧▽≦q)')
